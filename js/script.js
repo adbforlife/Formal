@@ -16,6 +16,8 @@ $(document).ready(function()	{
 	$(window).resize(function()	{
 		$('#mid').css('margin-top', $(window).outerHeight() / 2 - $('#oval').height() / 2);
 		$('#mid').css('margin-left', $(window).outerWidth() / 2 - $('#oval').width() / 2);
+		$('#back').css('height', $(window).outerHeight());
+		$('#back').css('width', $(window).outerWidth());
 	});
 
 	$("#l1").delay(2000).fadeIn();
